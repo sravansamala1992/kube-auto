@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks: 
+    - shell: kubectl apply -f  namespace.yml
