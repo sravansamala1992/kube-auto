@@ -1,0 +1,5 @@
+apiVersion: V1
+kind: image
+metadata:
+   name: ngnix
+   namespace: kube-auto1
