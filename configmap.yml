@@ -4,5 +4,9 @@ metadata:
   name: log-config
   namespace: kube-auto1
 data:
-   log.level: INFO
-   log.location: LOCAL
+   log.level:  INFO
+   log.level1: INFO1
+   log.level2: INFO2
+
+# create a configmap 
+# command: kubectl create -f configmap.yml 
